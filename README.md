@@ -1,6 +1,7 @@
 **Real-Time Streaming Engine (FastAPI + Kafka + Redis)**
 
 **Overview**
+
 This repository implements a high-throughput, low-latency backend system for ingesting, processing, and distributing real-time vehicle telemetry data across distributed automotive platforms.
 
 The system is built using an event-driven microservices architecture to support live fleet monitoring, alerting, and scalable data streaming for enterprise-grade applications.
