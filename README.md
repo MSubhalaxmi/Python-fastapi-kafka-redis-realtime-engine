@@ -18,6 +18,7 @@ The system is built using an event-driven microservices architecture to support 
 
 
 **Tech Stack**
+
 **Backend APIs:** FastAPI, GraphQL  
 **Streaming:** Kafka  
 **Real-Time Engine:** Redis Pub/Sub  
