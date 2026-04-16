@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: telemetry-service
+spec:
+  replicas: 3
+  template:
+    spec:
+      containers:
+        - name: telemetry
+          image: fleet/telemetry:latest
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+spec:
+  minReplicas: 3
+  maxReplicas: 10
