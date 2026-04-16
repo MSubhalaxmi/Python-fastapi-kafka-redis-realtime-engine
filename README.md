@@ -26,7 +26,6 @@ The system is built using an event-driven microservices architecture to support 
 **Testing:** PyTest  
 **Documentation:** OpenAPI / Swagger  
 
----
 
 **## Key Features**
 
@@ -50,7 +49,6 @@ The system is built using an event-driven microservices architecture to support 
 - Reduces over-fetching of data
 - Enables efficient frontend-backend communication
 
----
 
 **Performance and Scalability**
 - Processes over 100,000 events per second
@@ -59,7 +57,6 @@ The system is built using an event-driven microservices architecture to support 
 - Improved infrastructure efficiency by 25 percent using autoscaling
 - Supports zero-downtime deployments
 
----
 
 **Database Design**
 
@@ -72,7 +69,6 @@ The system is built using an event-driven microservices architecture to support 
 - Stores semi-structured telemetry data
 - Flexible schema for evolving data formats
 
----
 
 **Deployment Strategy**
 
@@ -92,7 +88,6 @@ The system is built using an event-driven microservices architecture to support 
 - Kubernetes deployment automation
 - Integrated testing before release
 
----
 
 **Testing Strategy**
 - Unit testing using PyTest
@@ -116,7 +111,6 @@ The system is built using an event-driven microservices architecture to support 
 - AWS IAM-based access control
 
 
-
 **Getting Started**
 
 **Prerequisites**
@@ -135,7 +129,6 @@ docker          : Container configurations
 k8s             : Kubernetes manifests  
 tests           : Test suites  
 docs            : API documentation  
-
 
 
 **Future Enhancements**
