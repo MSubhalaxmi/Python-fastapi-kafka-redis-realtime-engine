@@ -27,7 +27,7 @@ The system is built using an event-driven microservices architecture to support 
 **Documentation:** OpenAPI / Swagger  
 
 
-**## Key Features**
+**Key Features**
 
 **Real-Time Telemetry Ingestion**
 - Handles high-volume vehicle data streams
